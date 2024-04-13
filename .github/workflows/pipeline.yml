@@ -22,8 +22,6 @@ jobs:
         cache: 'npm'
     - name: Install NPM dependencies
       run: npm install
-    - name: Aduit fix
-      run: npm audit fix
     - name: Running the unit test
       run: npm run test:unit
     - name: Display SoftUni username
